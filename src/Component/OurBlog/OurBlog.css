@@ -1,0 +1,88 @@
+.Head_title{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+     
+  }
+  .dummy_border_2{
+    height: 2px;
+    width: 10%;
+    background-color: black;
+    margin-left: 30%;
+  }
+  .dummy_border_3{
+     height: 2px;
+     width: 10%;
+     background-color: black;
+     margin-right: 30%;
+    
+  }
+  .Head{
+     margin-bottom:2%;
+    
+  }
+  .Word{
+     margin-bottom: 2%;
+  }
+  .Blog{
+     display: flex;
+     width: 80%;
+     margin-left: 12%;
+    
+  }
+  
+  .Blog_menu img{
+      padding: 5px;
+     padding-left: 20px;
+  }
+  .Btn{
+     position: absolute;
+    bottom: -4%;
+    left: 14%;
+     
+     
+  }
+  .Blog_menu{
+     position: relative;
+  }
+  .Btn button{
+     width: 300px;
+     height: 100px;
+     
+  }
+  .Btn h2{
+     margin-bottom:20px;
+     text-align: center;
+  }
+  .Btn h2:hover{
+     color: blue;
+  }
+  .Btn p{
+     font-size: 18px;
+     font-style: italic;
+  }
+  .Btn_menu{
+     position: absolute;
+     top: 10%;
+     left: 10%;
+  }
+  .Btn_menu button{
+     height: 30px;
+     width: 80px;
+     background-color:violet;
+     color: white;
+     border: none;
+  }
+  .Btn_menu1{
+     position: absolute;
+     top: 10%;
+     left: 33%;
+  }
+  .Btn_menu1 button{
+     height: 30px;
+     width: 80px;
+     background-color: violet;
+     color: white;
+     border: none;
+  }

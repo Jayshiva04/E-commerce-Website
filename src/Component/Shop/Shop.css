@@ -1,0 +1,218 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+    }
+    .Upper_nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Nav_content{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .Upper_nav p{
+        padding: 15px;
+    }
+    .Nav_text span{
+        color: rgb(235, 52, 52);
+    }
+    .Nav_text{
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    .Nav_text p{
+        margin-right: 85px;
+    }
+    .Nav_content img{
+        height: 10px;
+        width: 10px;
+        margin-top: 10px;
+    }
+    /*Second Navbar*/
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Nav{
+        margin-right: 180px;
+    }
+    .Flone_container img{
+     padding: 30px;
+     width: 100px;
+     object-fit: contain;
+     margin-left: 25px;
+     
+    }
+    .Content_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Content_container p{
+     margin-left: 30px;
+    padding: 7px;
+    color: rgb(107,106,104);
+    }
+    .Icon_container img{
+        height:20px;
+        width: 20px;
+        padding: 12px;
+        margin-top: 10px;
+    }
+    .Icon_container{
+        margin-right: 100px;
+    }
+    .Content_container img{
+        height:10px;
+        width: 10px;
+    }
+    .Nav{
+        background-color: rgb(247,247,247);
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+    .Nav span{
+        color: gray;
+    }
+    .Class
+    {
+        display: flex;
+        justify-content: space-between; 
+    }
+    .Showing_menu{
+        margin-right: 900px;
+    }
+    .Flone_context{
+        background-color: rgb(247,247,247);
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .Menu_container{
+        margin-right:70px ;
+    }
+    .Nav h5{
+     display: flex;
+     justify-content: space-evenly;
+     padding:10px;
+     font-size: 15px;
+    }
+    .Content_container select{
+        border: none;
+    }
+    .Nav_content select{
+        border: none;
+    }
+    .Class{
+        padding: 45px;
+    }
+    .Class img{
+        height: 20px;
+        width: 20px;
+    }
+    .Class select{
+        border-radius: 5px;
+    }
+    .Menu_container img{
+        padding: 10px;
+    }
+    .Home{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     width: 80%;
+     margin-top: 2%;
+     margin-left: 13%;
+    }
+    
+    .Home_page img{
+        height: 400px;
+    }
+    .Home_menu{
+     margin-left: 50px;
+      margin-top: 10px;
+    }
+    .Home_menu span{
+        color: orange;
+        margin-bottom: 10px;
+    }
+    .Home_context{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .Image{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .Flone img{
+        height: 20px;
+        width: 20px;
+    }
+    .Flone_context{
+        background-color: rgb(247,247,247);
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .Flone{
+        padding: 70px;
+    }
+    .Home_page{
+        position: relative;
+        
+    }
+    .Home_page button{
+        background-color: rgb(248, 21, 210);
+        border: none;
+        padding: 4px 15px;
+        color: white;
+        border-radius: 6px;
+        position: absolute;
+        left: 210px;
+        top: 15px;
+    }
+    .Home_context button{
+        background-color: blueviolet;
+        border: none;
+        padding: 4px 16px;
+        color: white;
+        border-radius: 6px;
+        position: absolute;
+        left: 210px;
+        top: 58px; 
+    }
+    .Home_menu p{
+        margin-left: 10px;
+    }
+    .Home_page span{
+        margin-left: 10px;
+    }
+    
+    @media(max-width:600px){
+        .Home{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width: 80%;
+            margin-top: 2%;
+            margin-left: 13%;
+    }
+    }
+    
+    

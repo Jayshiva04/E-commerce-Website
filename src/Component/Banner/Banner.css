@@ -1,0 +1,72 @@
+.Image img{
+    width: 99vw;
+    height: 95vh;
+    object-fit: cover;
+ 
+ }
+ 
+ .Image_menu {
+   top: 30%;
+   left: 54%;
+   position: absolute;
+   animation: fadeInDown;
+   animation-duration: 4s;
+   animation-delay: 2s;
+ }
+ @keyframes fadeInDown{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0%);
+    }
+ }
+ 
+ .Image_menu h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 2%;
+    color: black;
+ }
+ .Image_menu h3{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 40%;
+    color: black;
+ 
+ }
+ .Image_menu p{
+    font-size: 25px;
+    margin-left: 25%;
+    margin-top: 3%;
+   
+ 
+ }
+ .Button1  button{
+    margin-left: 33%;
+    padding: 15px;
+    height: 60px;
+    width: 170px;
+    margin-top: 3%;
+ }
+ .Icon {
+   position: absolute;
+   top: 45%;
+   right: 5%;
+ }
+ .Icon img{
+    height: 60px;
+    width: 60px;
+ }
+ .Icon1 {
+   position: absolute;
+   top: 45%;
+   left: 5%;
+ }
+ .Icon1 img{
+    height: 60px;
+    width: 60px;
+ }
+ 

@@ -1,0 +1,78 @@
+.Flone_Container h5{
+    color: rgb(87,89,88);
+    margin-top:5px;
+}
+.Flone_Container pre{
+    color: rgb(87,89,88);
+    margin-top:5px;
+ 
+}
+.Flone_Container img{
+margin-bottom: 10px;
+}
+
+.Down_nav {
+   background-color: rgb(245, 245, 247);
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+   margin: 0 auto; 
+   width: 86%; 
+ }
+ 
+
+ .Flex{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   align-items: center;
+   width: 80%;
+   margin-right:5%;
+   margin-top: 2%;
+ }
+ .About_us p{
+ padding-top: 15px;
+ }
+ .About_us h4{
+    color: rgb(49,49,49);
+    font-weight:bold;
+    margin-bottom:10px;
+ }
+ .Useful_links p{
+    padding-top: 15px;
+ }
+ .Useful_links h4{
+    color: rgb(49,49,49);
+    font-weight:bold;
+    margin-bottom:10px;
+ }
+
+ .Follow p{
+    padding-top: 15px;
+ }
+ .Follow h4{
+    color: rgb(49,49,49);
+    font-weight:bold;
+    margin-bottom:10px;
+ }
+ .Subscribe p{
+    padding-top: 15px;
+ }
+ .Subscribe h4{
+    color: rgb(49,49,49);
+    font-weight:bold;
+    margin-bottom:10px;
+ }
+ .Txt input{
+    border: none;
+    background: transparent;
+    box-shadow: none; 
+}
+#add_to_cart{
+    position :relative;
+    top:-27px;
+    right: 22px;
+    color: red;
+
+}

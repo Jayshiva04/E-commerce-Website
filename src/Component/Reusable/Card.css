@@ -1,0 +1,96 @@
+
+ .Map{
+   display: grid ;  
+   grid-template-columns: repeat(5,1fr);
+   width: 95%;
+   margin-left: 2%;
+   margin-top: 5%;
+ 
+ }
+ 
+ .Collection_menu  img{
+    height: 300px;
+    width: 200px;
+    margin-left: 20%; 
+    object-fit: cover;
+ 
+ }
+ 
+ .Collection h3{
+    display: flex;
+ }
+ h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ 
+ .Collection_page{
+    display: flex;
+    margin-left: 57px;
+    margin-bottom: 10%;
+ }
+ .Collection_page h4{
+    padding: 3px;
+    color:violet;
+   
+ }
+ .Collection_page h5{
+    padding: 5px;
+    margin-left: 5px;   
+ }
+ .dummy_border_1 {
+   height: 2px;
+   width: 15%;
+   background-color: black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  margin-left:42.5%;
+}
+
+ 
+ .Btn2 button{
+    background-color: white;
+    border: none;
+    color: rgb(205, 11, 205);
+    position: absolute;
+    top:10px;
+    right: 40px;
+ }
+ .Collection_menu{
+    position: relative;
+   
+ }
+ .Btn3 button{
+    background-color: white;
+    border: none;
+    color:blue;
+    position: absolute;
+    top:40px;
+    right:40px;
+ }
+ .Btn4 button{
+    background-color: white;
+    border: none;
+    color: blue;
+    position: absolute;
+    top:10px;
+    right: 40px;
+ }
+ .Collection_heart{
+    display: flex;
+    margin-right: 5%;
+ }
+ .Collection_heart img{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 5%;
+ }
+ .Collection_heart p{
+    padding: 10px;
+    margin-left: 50px;
+ }
+ .Collection_heart p:hover{
+    color: blue;
+ }
